@@ -11,6 +11,7 @@ struct Node
 	Node* prev;
 };
 
+Node* START = NULL;
 
 
 
@@ -20,9 +21,4 @@ struct Node
 
 
 
-
-int main()
-{
-    std::cout << "Hello World!\n";
-}
 
