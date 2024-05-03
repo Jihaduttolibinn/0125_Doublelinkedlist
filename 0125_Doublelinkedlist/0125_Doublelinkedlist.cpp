@@ -47,6 +47,9 @@ void addNode() {
 
 		if (current != NULL)
 		{
+			current->prev = newNode;
+		}
+
 
 
 
