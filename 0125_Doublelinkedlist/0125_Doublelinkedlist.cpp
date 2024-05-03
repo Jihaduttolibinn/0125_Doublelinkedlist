@@ -100,6 +100,14 @@ void deleteNode()
 		return;
 	}
 
+	if (current == START)
+	{
+		START = START->next;
+		if (START != NULL)
+		{
+			START->prev = NULL;
+		}
+	}
 
 
 
